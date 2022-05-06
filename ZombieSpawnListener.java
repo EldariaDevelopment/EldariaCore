@@ -1,9 +1,13 @@
-import org.bukkit.listener.event
+package me.Almond.eldariacore.EldariaCore
 
 
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 
-public class Main {
-  public static void ZombieListener(OnEntitySpawnEvent()) {
+
+public final class ZombieListener implements Listener {
+  @EventHandler
+  public static void EntitySpawnListener(OnEntitySpawnEvent()) {
     String Toggle = "Enabled";
     switch (Toggle) {
       case "Enabled":
