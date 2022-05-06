@@ -7,7 +7,7 @@ import org.bukkit.event.Listener;
 
 public final class ZombieListener implements Listener {
   @EventHandler
-  public static void EntitySpawnListener(OnEntitySpawnEvent()) {
+  public static void EntitySpawnListener(OnEntitySpawnEvent Event) {
     String Toggle = "Enabled";
     switch (Toggle) {
       case "Enabled":
