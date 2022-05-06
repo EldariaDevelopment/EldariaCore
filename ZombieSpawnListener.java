@@ -1,5 +1,5 @@
 public class Main {
-  public static void main(String[] args) {
+  public static void ZombieListener(OnEntitySpawnEvent()) {
     String Toggle = "Enabled";
     switch (Toggle) {
       case "Enabled":
